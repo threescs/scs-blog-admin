@@ -18,26 +18,44 @@ export default [
     authority: ['admin', 'user'],
     routes: [
       // dashboard
-      { path: '/', redirect: '/dashboard/analysis' },
+      // { path: '/', redirect: '/dashboard/analysis' },
+      // {
+      //   path: '/dashboard',
+      //   name: 'dashboard',
+      //   icon: 'dashboard',
+      //   routes: [
+      //     {
+      //       path: '/dashboard/analysis',
+      //       name: 'analysis',
+      //       component: './Dashboard/Analysis',
+      //     },
+      //     {
+      //       path: '/dashboard/monitor',
+      //       name: 'monitor',
+      //       component: './Dashboard/Monitor',
+      //     },
+      //     {
+      //       path: '/dashboard/workplace',
+      //       name: 'workplace',
+      //       component: './Dashboard/Workplace',
+      //     },
+      //   ],
+      // },
+      //article
       {
-        path: '/dashboard',
-        name: 'dashboard',
-        icon: 'dashboard',
+        path: '/article',
+        name: 'article',
+        icon: 'file-markdown',
         routes: [
           {
-            path: '/dashboard/analysis',
-            name: 'analysis',
-            component: './Dashboard/Analysis',
+            path: '/article/list',
+            name: 'list',
+            component: './Article/List',
           },
           {
-            path: '/dashboard/monitor',
-            name: 'monitor',
-            component: './Dashboard/Monitor',
-          },
-          {
-            path: '/dashboard/workplace',
-            name: 'workplace',
-            component: './Dashboard/Workplace',
+            path: '/article/create',
+            name: 'create',
+            component: './Article/ArticleCreate',
           },
         ],
       },
