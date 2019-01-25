@@ -34,7 +34,7 @@ class TableList extends PureComponent {
     this.state = {
       changeType: false,
       title: '',
-      author: 'biaochenxuying',
+      author: 'scs',
       keyword: '',
       content: '',
       desc: '',
@@ -299,7 +299,7 @@ class TableList extends PureComponent {
             visible: false,
             changeType: false,
             title: '',
-            author: 'biaochenxuying',
+            author: 'scs',
             keyword: '',
             content: '',
             desc: '',
@@ -564,7 +564,7 @@ class TableList extends PureComponent {
         visible: true,
         changeType: false,
         title: '',
-        author: 'biaochenxuying',
+        author: 'scs',
         keyword: '',
         content: '',
         desc: '',
@@ -728,8 +728,8 @@ class TableList extends PureComponent {
     return (
       <PageHeaderWrapper title="文章管理">
         <Card bordered={false}>
-          <div className="">
-            <div className="">{this.renderSimpleForm()}</div>
+          <div>
+            <div>{this.renderSimpleForm()}</div>
             <Table
               size="middle"
               pagination={pagination}
