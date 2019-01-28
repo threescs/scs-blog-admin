@@ -20,17 +20,17 @@ export default [
       //article
       {
         path: '/article',
-        name: '博客',
+        name: 'article',
         icon: 'file-markdown',
         routes: [
           {
             path: '/article/list',
-            name: '博客列表',
+            name: 'list',
             component: './Article/List',
           },
           {
             path: '/article/create',
-            name: '新增博客',
+            name: 'create',
             component: './Article/ArticleCreate',
           },
         ],
