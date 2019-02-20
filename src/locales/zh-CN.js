@@ -10,6 +10,7 @@ import settingDrawer from './zh-CN/settingDrawer';
 import settings from './zh-CN/settings';
 import pwa from './zh-CN/pwa';
 import article from './zh-CN/article';
+import tag from './zh-CN/tag';
 
 export default {
   'navBar.lang': '语言',
@@ -32,4 +33,5 @@ export default {
   ...settings,
   ...pwa,
   ...article,
+  ...tag,
 };

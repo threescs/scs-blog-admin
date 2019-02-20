@@ -10,6 +10,7 @@ import settingDrawer from './en-US/settingDrawer';
 import settings from './en-US/settings';
 import pwa from './en-US/pwa';
 import article from './en-US/article';
+import tag from './en-US/tag';
 
 export default {
   'navBar.lang': 'Languages',
@@ -32,4 +33,5 @@ export default {
   ...settings,
   ...pwa,
   ...article,
+  ...tag,
 };

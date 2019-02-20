@@ -35,6 +35,19 @@ export default [
           },
         ],
       },
+      // Tag
+      {
+        path: '/tag',
+        name: 'tag',
+        icon: 'tags',
+        routes: [
+          {
+            path: '/tag/list',
+            name: 'list',
+            component: './Tag/List',
+          },
+        ],
+      },
       {
         name: 'result',
         icon: 'check-circle-o',
