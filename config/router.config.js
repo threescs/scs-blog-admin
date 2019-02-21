@@ -48,6 +48,19 @@ export default [
           },
         ],
       },
+      // Link
+      {
+        path: '/link',
+        name: 'link',
+        icon: 'link',
+        routes: [
+          {
+            path: '/link/list',
+            name: 'list',
+            component: './Link/List',
+          },
+        ],
+      },
       {
         name: 'result',
         icon: 'check-circle-o',
