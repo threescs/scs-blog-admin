@@ -11,6 +11,7 @@ import settings from './pt-BR/settings';
 import pwa from './pt-BR/pwa';
 import article from './pt-BR/article';
 import tag from './pt-BR/tag';
+import link from './pt-BR/link';
 
 export default {
   'navBar.lang': 'Idiomas',
@@ -34,4 +35,5 @@ export default {
   ...pwa,
   ...article,
   ...tag,
+  ...link,
 };

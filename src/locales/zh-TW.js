@@ -11,6 +11,7 @@ import settings from './zh-TW/settings';
 import pwa from './zh-TW/pwa';
 import article from './zh-TW/article';
 import tag from './zh-TW/tag';
+import link from './zh-TW/link';
 
 export default {
   'navBar.lang': '語言',
@@ -34,4 +35,5 @@ export default {
   ...pwa,
   ...article,
   ...tag,
+  ...link,
 };
