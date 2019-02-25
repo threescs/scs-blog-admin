@@ -12,6 +12,7 @@ import pwa from './en-US/pwa';
 import article from './en-US/article';
 import tag from './en-US/tag';
 import link from './en-US/link';
+import category from './en-US/category';
 
 export default {
   'navBar.lang': 'Languages',
@@ -36,4 +37,5 @@ export default {
   ...article,
   ...tag,
   ...link,
+  ...category,
 };

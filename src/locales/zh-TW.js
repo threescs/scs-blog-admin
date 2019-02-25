@@ -12,6 +12,7 @@ import pwa from './zh-TW/pwa';
 import article from './zh-TW/article';
 import tag from './zh-TW/tag';
 import link from './zh-TW/link';
+import category from './zh-TW/category';
 
 export default {
   'navBar.lang': '語言',
@@ -36,4 +37,5 @@ export default {
   ...article,
   ...tag,
   ...link,
+  ...category,
 };

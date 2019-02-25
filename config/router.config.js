@@ -61,6 +61,19 @@ export default [
           },
         ],
       },
+      // category
+      {
+        path: '/category',
+        name: 'category',
+        icon: 'book',
+        routes: [
+          {
+            path: '/category/list',
+            name: 'list',
+            component: './Category/List',
+          },
+        ],
+      },
       {
         name: 'result',
         icon: 'check-circle-o',
